@@ -2,13 +2,13 @@ version: '3.3'
 services:
   web:
     build:
-      context: ./environment
+      context: ./
       dockerfile: Dockerfile
     container_name: php73
     depends_on:
       - db
     volumes: 
-      - ./environment:/var/www/html/
+      - ./:/var/www/html/
     ports:
       - 8000:80
   db:

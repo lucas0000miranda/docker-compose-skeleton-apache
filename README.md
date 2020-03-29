@@ -41,7 +41,7 @@ Next we up the project:
 docker-compose up
 ```
 
-You are ready to usu it!
+You are ready to use it!
 
 Check some useful commands:
 

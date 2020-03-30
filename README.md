@@ -62,4 +62,6 @@ Check some useful commands:
 
 * docker run -d --publish your_port:docker_port image_name -> make the image works in the same port of yours
 
+* docker-compose run --rm composer install -> To run composer install in the container
+
 ```

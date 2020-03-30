@@ -22,3 +22,9 @@ services:
       MYSQL_USER: root
     ports:
       - 33086:3306
+  composer:
+    restart: 'no'
+    image: composer
+    command: install
+    volumes:
+      - ./:/var/www/html/
